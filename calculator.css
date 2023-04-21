@@ -1,0 +1,83 @@
+* {
+    font-family: Arial;
+    background-color: rgb(212, 229, 246);
+}
+
+.menu {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(55, 67, 82);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.mug_kapyt {
+    background-color: rgb(55, 67, 82);
+}
+
+.bac_kapyt {
+    background-color: rgb(91, 106, 124);
+}
+
+.black {
+    background-color: rgb(52, 58, 65);
+}
+
+.yellow {
+    background: linear-gradient(90deg, rgb(254, 52, 112), rgb(252, 168, 44));
+}
+
+td {
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 15px;
+    padding: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(115, 131, 150);
+    border-image: initial;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+td:hover {
+    opacity: .8;
+}
+
+td:active {
+    opacity: .5;
+}
+
+.calculator {
+    width: 560px;
+    box-shadow: rgb(91, 106, 124) 5px 5px 16px;
+    margin: 40px auto;
+    background: rgb(55, 67, 82);
+    border-radius: 15px;
+}
+
+.reshotka {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(81, 92, 105);
+}
+
+table {
+    user-select: none;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 250px;
+    border-collapse: collapse;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+svg  {
+    background: none;
+    color: #fff;
+}
